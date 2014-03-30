@@ -1,0 +1,6 @@
+#!/usr/bin/env coffee
+
+server = require '../app/server'
+server.start()
+
+console.log "Server listening on: #{server.info.uri}"

@@ -10,6 +10,7 @@ Install
 git clone git@github.com:strathmeyer/nasacache.git
 cd nasacache/
 npm install
+npm install coffee-script -g
 ```
 
 Run Tests

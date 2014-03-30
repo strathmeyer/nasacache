@@ -1,4 +1,4 @@
-server = require('../app/index').server
+server = require('../app/server')
 should = require 'should'
 
 beforeEach (done)->

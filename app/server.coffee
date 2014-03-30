@@ -3,7 +3,7 @@ Hapi   = require "hapi"
 config = require '../config'
 hi     = require 'human-interval'
 
-exports.server = server = Hapi.createServer "localhost", 8000,
+module.exports = server = Hapi.createServer "localhost", 8000,
   cache: config.get('/cache')
 
 getNasaData = (count, next) ->
@@ -25,5 +25,3 @@ server.route
     count = request.query.count or 10
     server.methods.getNasaData count, (error, result) ->
       reply error or result
-
-exports.server = server

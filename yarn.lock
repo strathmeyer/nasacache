@@ -311,9 +311,9 @@ grunt@^0.4.4:
     underscore.string "~2.2.1"
     which "~1.0.5"
 
-"hapi@~> 11.0.0":
-  version "11.0.5"
-  resolved "https://registry.yarnpkg.com/hapi/-/hapi-11.0.5.tgz#0e6da07a93d1a7dfdcd404e094d9916fcdb00e7f"
+"hapi@~> 11.1.3":
+  version "11.1.4"
+  resolved "https://registry.yarnpkg.com/hapi/-/hapi-11.1.4.tgz#a80588d175a1d9489acda0fdd13df5a0766f55ce"
   dependencies:
     accept "2.x.x"
     ammo "2.x.x"
